@@ -1,0 +1,25 @@
+*  {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: arial;
+    font-size: 18px;
+}
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+container img {vertical-align: middle
+
+}
+.container  .content {
+    position: absolute;
+    bottom: 0;
+
+
+}
