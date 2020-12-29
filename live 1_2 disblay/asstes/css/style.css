@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+header {
+    background: url(https://picsum.photos/800/800/) center/cover;
+    height: 800px;
+
+}
+ul {
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+}
+ul li a:hover {
+    background: black;
+}
