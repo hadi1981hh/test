@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+/* === Basic Setup === */
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Roboto;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+nav ul {
+    margin: 50px 0 50px 15%;
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    padding-right: 25px;
+}
+nav ul li a {
+    color: #659d89;
+    text-decoration: none;
+}
+article div:nth-child(3) {
+    text-align: right;
+    color: #666;
+}
+
+article div:nth-child(3) i {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+p>i {
+    padding-right: 15px;
+}
+a i {
+    color: #666;
+    margin: 10px;
+    font-size: 20px;
+}
+a:hover i {
+    color: black;
+}
+
+article {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+section {
+    border-bottom: 1px solid #ccc;
+    padding: 50px 0 50px 0;
+}
+section:first-of-type {
+    padding-top: 0;
+    margin-top: 150px;
+}
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    text-align: center;
+}
+.container img {
+    display: inline-block;
+    margin: 2%;
+    width: 300px;
+}
+
+.container .gifs {
+    text-align: center;
+}
+
+.container img:hover {
+    box-shadow: 0 0 15px #666;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+h1 {
+    color: #659d89;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+h2 { 
+    margin-top: 10px;
+    font-size: 48px;
+}
+h3 {
+    font-size: 28px;
+}
+.left {
+    text-align: left;
+    margin-left: 2%;
+    margin-bottom: 0;
+}
+.right {
+    text-align: right;
+    margin-right: 2%;
+    margin-bottom: 0;
+}
+.left img, .right img {
+    width: 600px;
+    margin-bottom: 0;
+}
+.description {
+    width: 600px;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+.right .description {
+    margin-right: 2%;
+    margin-left: auto;
+}
+.description h4,
+footer h4 {
+    text-transform: uppercase;
+    color: #666;
+    font-size: 12px;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 0;
+    text-align: center;
+}
+footer>a {
+    font-size: 20px;
+    color: #666;
+}
+footer>h4 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
