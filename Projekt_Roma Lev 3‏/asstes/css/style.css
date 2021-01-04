@@ -1,0 +1,185 @@
+@font-face{
+  font-family: "Santio Black";
+  src: url("../fonts/Santio\ Black.otf");
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  background: url(../img/cleo-topper\ \(2\).jpg), rgba(0,0,0,.5);
+  background-blend-mode: multiply;
+  height: 80%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.textmarkup{
+  background: grey;
+  color: #fff;
+  padding: 5px;
+}
+.imgsize{
+  height: 170px;
+}
+header{
+  margin: 0;
+  text-align: right;
+  padding-right: 10%;
+  padding-top: 8px;
+}
+header p{
+  margin: 0;
+  display: inline;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #e7bc0e;
+  color: #fff;
+}
+header img{
+  height: 15px;
+}
+main h1{
+  margin: 0;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 128px;
+}
+
+#fbig1{
+  padding-left: 5%;
+  padding-bottom: 40vh;
+}
+#big1 p:big1-child{
+  color: #fff;
+  font-size: 5em;
+  width: 30%;
+  padding-top: 40px;
+}
+#big1 p:last-child{
+  color: #e7bc0e;
+  font-size: 24px;
+  font-style: italic;
+  padding-top: 40px;
+  font-family: 'Mr Dafoe', cursive;
+}
+#big1 a{
+  text-decoration: none;
+  color: #e7bc0e;
+}
+
+main section:nth-of-type(2) {
+  margin: 0 auto;
+  width: 60%;
+}
+main section:nth-of-type(2) p{
+  text-align: left;
+  color: #6bc1a3;
+  font-family: "Santio Black";
+  font-size: 48px;
+  line-height: 60px;
+  word-spacing: 10px;
+}
+
+#big3{
+  color: #e7bc0e;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 250px;
+}
+#big3p{
+  font-size: 38px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#fbig4{
+  color: #cb91b6;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 250px;
+}
+#big4 p{
+  font-size: 38px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#big5{
+  color: #6bc1a3;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 250px;
+}
+#big5{
+  font-size: 38px;
+  font-family: 'Roboto', sans-serif;
+}
+
+main section:nth-of-type(6) {
+  margin: 0 auto;
+  margin-left: 50%;
+  width: 40%;
+  margin-top: 300px;
+}
+main section:nth-of-type(6) p{
+  text-align: left;
+  color: #7eb8e1;
+  font-family: "Santio Black";
+  font-size: 48px;
+  line-height: 60px;
+  word-spacing: 10px;
+}
+
+main article{
+  height: 100vh;
+  background: url(../img/kid.png), url(../img/see.png), rgba(255,255,255);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer{
+  height: 100vh;
+  background: #000;
+}
+footer p:nth-of-type(1){
+  margin: 0 auto;
+  padding-top: 100px;
+  color: #fff;
+  font-family: "Santio Black";
+  font-size: 128px;
+  width: 60%;
+}
+footer div{
+  width: 60%;
+  margin: 0 auto;
+}
+footer div a:big1-of-type{
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+  margin-top: 150px;
+  border: 1px solid #fff;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+footer div a:hover{
+  box-shadow: 2px 2px #fff;
+}
+footer p:nth-of-type(2){
+  margin: 0 auto;
+  margin-top: 100px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.ROMATAG{
+  color: #6bc1a3;
+  text-decoration: none;
+}
+.ROMATAG:hover{
+  text-decoration: underline;
+}
